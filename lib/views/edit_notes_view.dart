@@ -24,6 +24,7 @@ class _EditNotesViewState extends State<EditNotesView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
       appBar: AppBar(
         title: const Text(
           'Edit Note',
@@ -56,7 +57,7 @@ class _EditNotesViewState extends State<EditNotesView> {
           vertical: 50,
           horizontal: 20,
         ),
-        child: Column(
+        child: ListView(
           children: [
             CustomTextFormField(
               hint: widget.note.title,

@@ -11,6 +11,7 @@ class NotesView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      resizeToAvoidBottomInset: true,
         appBar: AppBar(
           centerTitle: true,
           elevation: 0,

@@ -40,7 +40,7 @@ class NotesItem extends StatelessWidget {
                   note.title,
                   style: const TextStyle(
                     color: Colors.black,
-                    fontSize: 28,
+                    fontSize: 26,
                   ),
                 ),
                 subtitle: Padding(
